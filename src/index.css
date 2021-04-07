@@ -1,0 +1,193 @@
+
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#welcome
+{
+  text-align: center;
+	font-family: Helvetica;
+  color: #ffc904;
+  font-size: 30px;
+  font-weight: lighter;
+  display: block;
+  position: relative;
+  top: 55px;
+}
+#title
+{
+  text-align: center;
+  display: block;
+	font-family: helvetica;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  font-size: 38px;
+  position: relative;
+  top: 40px;
+}
+ul#horizontal-list
+{
+  min-width: 600px;
+  list-style: none;
+  padding-top: 0%;
+}
+ul#horizontal-list li
+{
+  display: inline;
+}
+
+ul#horizontal-list-icons
+{
+  min-width: 600px;
+  list-style: none;
+  padding-top: 30%;
+}
+
+#miniApps
+{
+  width: 950px;
+  table-layout: fixed;
+}
+#miniAppsName
+{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 17px;
+  font-family: monospace;
+}
+td
+{
+  text-align: center;
+}
+table.miniAppsAligment /* the doct is a class selector  it can be used as ex: .table*/
+{
+  margin-top: 10%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+/* Log out button */
+.btn
+{
+  border: 1px solid;
+  border-radius: 2px;
+  background-color: inherit; /* it means the same color of the bacgroud*/
+  border-color: #ffc904;
+  border-radius: 4px 4px 4px 4px;
+  padding: 2px 10px;
+  font-size: 12px;
+  position: relative;
+  right: -88%;
+  top: 30px;
+  cursor: pointer;
+}
+
+.logOut
+{
+  color:#ffc904;
+  font-family: Helvetica;
+}
+/* Dashboard background color */
+.dashboard{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #302F2E;
+}
+
+/* Login Section */
+.loginSection
+{
+  margin: auto;
+  margin-top: 15%;
+  width: 20%;
+  border: 1px solid grey;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: helvetica;
+  font-weight: lighter;
+  
+}
+#loginButton
+{
+  border: 1px solid;
+  background-color: #ffc904; 
+  border-color: black;
+  padding: 3px 20px 3px 20px;
+  cursor: pointer;
+  margin: 10px 0px 10px 0px;
+}
+#passwordReset
+{
+  font-size: 10pt;
+}
+/*END*/
+
+
+
+
+/*Menu Bar style*/
+table.menu
+{
+  background-color:#8f8585;
+  position: fixed;
+  margin-top: 0%;
+  font-size: 12pt;
+  font-family: helvetica;
+  width: 100%;
+
+  padding: 2pt 10% 2pt 10%;
+  color: #ffc904 ;
+}
+td:last-child {
+  text-align: right;
+}
+#portalbutton{
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: #ffc904; 
+    border-color: #ffc904;
+    border-radius: 3px 3px 3px 3px;
+    font-size: inherit;
+    cursor: pointer;
+  }
+/*END*/
+
+#homeTitle
+{
+  margin: 0 auto;
+  text-align: center;
+}
+
+@import "react-slideshow-image/dist/styles.css";
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  background: none;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
